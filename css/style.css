@@ -19,10 +19,16 @@ main {
     height: 100vh;
 }
 
-/* utilities */
+/********************** id **********************************/
 
+#fa-chevron-up-small {
+    font-size: 11px;
+    right: 25%;
+}
 
 /************************ classi ****************************/
+
+/* view bar */
 
 .view_bar {
     height: 45px;
@@ -47,7 +53,7 @@ main {
 }
 
 
-/*  */
+/* main container */
 
 .main_container {
     flex-grow: 1;
@@ -108,14 +114,71 @@ main {
     color: white;
 }
 
+/* option bar */
 
-
-
-
-/*  */
 .option_bar {
-    height: 55px;
-    border-top: 1px solid;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202223;
+    align-items: center;
+    font-size: 14px;
 }
 
+.option_bar a{
+    color: #dcdcdc;
+    text-decoration: none;
+}
+
+.option_bar .cmd_btn:hover {
+    background-color: #4a4b4d8f;
+}
+
+.option_bar .fas {
+    font-size: 30px;
+}
+
+.option_bar i {
+    width: 100%;
+    text-align: center;
+}
+
+.cmd_btns {
+    display: flex;
+}
+
+.cmd_btn {
+    padding: 0 20px;
+    position: relative;
+}
+
+.cmd_btn_name {
+    padding-top: 5px;
+}
+
+.cmd_btn .fa-chevron-up {
+    width: fit-content;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.participants_nr {
+    position: absolute;
+    top: 0;
+    right: 25%;
+}
+
+.fa-share-square {
+    color: #4BC800;
+}
+
+.cmd_btns_dx a {
+    background-color: #4a4b4d8f;
+    line-height: 60px;
+    color: red;
+    padding: 0 20px;
+}
 
