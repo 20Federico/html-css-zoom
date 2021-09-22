@@ -38,7 +38,7 @@ main {
     padding-right: 10px;
 }
 
-.view_bar button{
+.view_bar button {
     height: 26px;
     margin-right: 5px;
     padding: 3px 5px;
@@ -52,7 +52,6 @@ main {
     background-color: #4e4d4d;
 }
 
-
 /* main container */
 
 .main_container {
@@ -62,7 +61,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .page {
@@ -80,13 +79,15 @@ main {
     right: 0;
 }
 
-.fa-caret-left, .fa-caret-right {
+.fa-caret-left,
+.fa-caret-right {
     font-size: 50px;
-    color: #7F7F7F;
+    color: #7f7f7f;
 }
 
-.fa-caret-left:hover, .fa-caret-right:hover {
-    color: #2EBAFF;
+.fa-caret-left:hover,
+.fa-caret-right:hover {
+    color: #2ebaff;
 }
 
 .user_container {
@@ -125,13 +126,14 @@ main {
     font-size: 14px;
 }
 
-.option_bar a{
+.option_bar a {
     color: #dcdcdc;
     text-decoration: none;
 }
 
 .option_bar .cmd_btn:hover {
     background-color: #4a4b4d8f;
+    border-radius: 8px;
 }
 
 .option_bar .fas {
@@ -172,7 +174,7 @@ main {
 }
 
 .fa-share-square {
-    color: #4BC800;
+    color: #4bc800;
 }
 
 .cmd_btns_dx a {
@@ -181,4 +183,3 @@ main {
     color: red;
     padding: 0 20px;
 }
-
